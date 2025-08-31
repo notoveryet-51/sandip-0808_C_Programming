@@ -10,9 +10,9 @@ int main () {
     int a=n-2; //string and array starts from zeroth box (so we gave n-1) and strlen calculates an extra space (so n-2)
     for (int i=0;  i<=a/2; i++) {
         if (str[i]==str[a-i])
-            b=1;
+            break;
         else
-           b=0; 
+           b=1; 
     }
     if (b==1)
         printf ("The word is a palindrome :)");
@@ -21,3 +21,4 @@ int main () {
     return 0;
 
 }
+
