@@ -9,7 +9,7 @@ int main () {
     int n=strlen (str);
     int a=n-2; //string and array starts from zeroth box (so we gave n-1) and strlen calculates an extra space (so n-2)
     for (int i=0;  i<=a/2; i++) {
-        if (str[i]==str[a-i])
+        if (str[i]!=str[a-i])
             break;
         else
            b=1; 
