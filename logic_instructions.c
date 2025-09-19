@@ -1,4 +1,4 @@
-/* Program to do the instructions as specified
+/* Program to do few logical operations
 Program Date: 19-09-2025
 Name: Sandipan Ray
 Regn. No.: 2025CA085    */
