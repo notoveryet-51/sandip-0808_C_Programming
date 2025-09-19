@@ -7,7 +7,7 @@ int main () {
     int a=0,b=1,c,n;
     printf ("Enter the number of fibonacci numbers you want to print: \n");
     scanf("%d",&n);
-    printf ("The fibonacci series of numvbers is: \n");
+    printf ("The fibonacci series of numbers is: \n");
     if (n==1)
         printf ("0\n");
     else if (n==2)
@@ -22,4 +22,5 @@ int main () {
         }
     }
     return 0;
+
 }
