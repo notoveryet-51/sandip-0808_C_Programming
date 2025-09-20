@@ -3,7 +3,7 @@
 
 int main()
 {
-    int n,i;
+    int n;
     printf("Enter the total numbers you want to print: \n");
     scanf("%d", &n);
     
