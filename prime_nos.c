@@ -5,7 +5,7 @@ Regn. No.: 2025CA085    */
 #include <stdio.h>
 int main() {
     int a,count=0;
-    printf("Enter the number: ");
+    printf("Enter a natural number: ");
     scanf("%d",&a);
     if (a==1)
         printf("\n1 is not a prime number");
