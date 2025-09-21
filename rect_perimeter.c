@@ -10,14 +10,14 @@ int main () {
     }
     for (int j=1; j<=14; j++) {
         printf("\n");
-        
+        printf("\r");
         printf("*");
         for (int k=1; k<=37; k++) {
             printf(" ");
         }
         printf("*");
     }
-    
+    printf("\r");
     for (int m=1; m<=20; m++) {
         printf("* ");
     }
