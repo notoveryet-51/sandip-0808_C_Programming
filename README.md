@@ -1,4 +1,4 @@
-# sandip-0808
+# sandip-0808_C_Programming
 My coding journey starts here.
 <br>
 Author - Sandipan Ray
