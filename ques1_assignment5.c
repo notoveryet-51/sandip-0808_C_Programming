@@ -1,6 +1,6 @@
-/* Program to enter integers 0-9
-Name: Sandipan ray
-Program date: 9-10-2025
+/* Program to enter integers 0-9 and print the frequency of their entries
+Name: Sandipan Ray
+Program date: 09-10-2025
 Regn no.: 2025ca085	*/
 
 #include<stdio.h>
