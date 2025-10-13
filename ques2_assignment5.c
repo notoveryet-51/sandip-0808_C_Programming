@@ -1,7 +1,7 @@
-/* Program to find the roots between given intervals
-Name: Sandipan ray
-regn no.: 2025ca085
-date: 09-10-2025	*/
+/* Program to find the roots between given intervals 0 and 1
+Name: Sandipan Ray
+Regn no.: 2025ca085
+Date: 09-10-2025	*/
 
 #include <stdio.h>
 #include <math.h>

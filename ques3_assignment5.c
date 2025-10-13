@@ -1,7 +1,7 @@
-/* Program to do stuff
-program date: 09-10-2025
-name: sandipan ray
-regn no.:2025ca085	*/
+/* Program to accept a value of x and return the value of erf(x)
+Program date: 09-10-2025
+Name: Sandipan Ray
+Regn no.:2025ca085	*/
 
 #include <stdio.h>
 #include <math.h>
