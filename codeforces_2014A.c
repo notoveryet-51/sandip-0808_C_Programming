@@ -1,7 +1,7 @@
 /*The program is the solution of codeforces problem no. 2014A
 Name: Sandipan Ray
 Regn no.: 2025CA085
-Program Date: 15-10-2025*/
+Program Date: 16-10-2025*/
 
 #include <stdio.h>
 
