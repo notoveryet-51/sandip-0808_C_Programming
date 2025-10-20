@@ -1,4 +1,4 @@
-/*The program is the solution of codeforces problem no. 1352A
+/*The program is the solution of codeforces problem no. 510A
 Name: Sandipan Ray
 Regn no.: 2025CA085
 Program Date: 19-10-2025    */
