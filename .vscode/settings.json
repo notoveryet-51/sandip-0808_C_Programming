@@ -1,5 +1,17 @@
 {
     "files.associations": {
-        "stdio.h": "c"
-    }
+        "stdio.h": "c",
+        "stdlib.h": "c",
+        "string.h": "c",
+        "math.h": "c",
+        "stdbool.h": "c",
+        "ctype.h": "c",
+        "*.tcc": "c"
+    },
+    "C_Cpp.default.compilerPath": "C:/msys64/mingw64/bin/gcc.exe",
+    "C_Cpp.default.intelliSenseMode": "windows-gcc-x64",
+    "C_Cpp.default.cStandard": "c17",
+    "C_Cpp.errorSquiggles": "enabled",
+    "C_Cpp.formatting": "vcFormat",
+    "C_Cpp.clang_format_style": "Google"
 }
