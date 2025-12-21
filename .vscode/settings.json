@@ -1,17 +1,77 @@
 {
-    "files.associations": {
-        "stdio.h": "c",
-        "stdlib.h": "c",
-        "string.h": "c",
-        "math.h": "c",
-        "stdbool.h": "c",
-        "ctype.h": "c",
-        "*.tcc": "c"
-    },
-    "C_Cpp.default.compilerPath": "C:/msys64/mingw64/bin/gcc.exe",
-    "C_Cpp.default.intelliSenseMode": "windows-gcc-x64",
-    "C_Cpp.default.cStandard": "c17",
+    "workbench.colorTheme": "Night Owl Black",
+
     "C_Cpp.errorSquiggles": "enabled",
-    "C_Cpp.formatting": "vcFormat",
-    "C_Cpp.clang_format_style": "Google"
+    "C_Cpp.intelliSenseEngine": "Default",
+    "C_Cpp.autocomplete": "Default",
+    "files.associations": {
+        "*.cpp": "cpp",
+        "*.hpp": "cpp",
+        "*.c": "c"
+    },
+
+    "workbench.colorCustomizations": {
+
+        // ---- Tabs & Title Bar Borders ----
+        "tab.activeBorder": "#00FFFF",
+        "tab.activeBorderTop": "#00FFFF",
+        "tab.unfocusedActiveBorder": "#00FFFF",
+        "tab.unfocusedActiveBorderTop": "#00FFFF",
+        "titleBar.border": "#00FFFF",
+        "editorGroupHeader.tabsBorder": "#00FFFF",
+        "editorGroupHeader.border": "#00FFFF",
+
+        // ---- Editor Group Borders ----
+        "editorGroup.border": "#00FFFF",
+        "editorGroup.focusedEmptyBorder": "#00FFFF",
+        "editorGroup.dropBorder": "#00FFFF",
+
+        // ---- Panels & SideBars ----
+        "panel.border": "#00FFFF",
+        "panel.title.activeBorder": "#00FFFF",
+        "panelInput.border": "#00FFFF",
+        "sideBar.border": "#00FFFF",
+        "sideBarSectionHeader.border": "#00FFFF",
+
+
+        // ---- Activity Bar ----
+        "activityBar.border": "#00FFFF",
+
+        // ---- Status Bar ----
+        "statusBar.border": "#00FFFF",
+        "statusBar.noFolderBorder": "#00FFFF",
+        "statusBar.debuggingBorder": "#00FFFF",
+
+        // ---- Editor Borders ----
+        "editor.hoverHighlightBorder": "#00FFFF",
+        "editorSuggestWidget.border": "#00FFFF",
+        "editorWidget.border": "#00FFFF",
+        "editor.findMatchBorder": "#00FFFF",
+        "editor.findMatchHighlightBorder": "#00FFFF",
+        "editor.rangeHighlightBorder": "#00FFFF",
+        "editor.lineHighlightBackground": "#00000000",
+        "editor.lineHighlightBorder": "#C400FF",
+
+        // ---- Menus, Lists, Inputs ----
+        "menu.border": "#00FFFF",
+        "dropdown.border": "#00FFFF",
+        "input.border": "#00FFFF",
+        "peekView.border": "#00FFFF",
+
+        // ---- Notifications, Modals ----
+        "notificationCenter.border": "#00FFFF",
+        "notificationToast.border": "#00FFFF",
+        "notificationCenterHeader.border": "#00FFFF",
+        "notifications.border": "#00FFFF",
+
+        // ---- Debug ----
+        "debugToolBar.border": "#00FFFF",
+        "debugExceptionWidget.border": "#00FFFF",
+
+        // ---- Terminal ----
+        "terminal.border": "#00FFFF",
+
+        // ---- Welcome Page ----
+        "welcomePage.tileBorder": "#00FFFF"
+    }
 }

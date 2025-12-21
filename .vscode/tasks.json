@@ -3,10 +3,10 @@
     "tasks": [
         {
             "type": "cppbuild",
-            "label": "C: gcc build active file",
-            "command": "C:/msys64/mingw64/bin/gcc.exe",
+            "label": "C/C++: Build active file",
+            "command": "C:/msys64/mingw64/bin/g++.exe",
             "args": [
-                "-std=c17",
+                "-std=c++17",
                 "-fdiagnostics-color=always",
                 "-g",
                 "${file}",
