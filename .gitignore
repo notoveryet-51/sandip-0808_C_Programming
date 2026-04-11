@@ -3,3 +3,4 @@ mingW.json
 *.class
 *.json
 a.out
+.vscode/
