@@ -1,0 +1,65 @@
+/*Basic C programs
+Regn no.: 2025CA085
+Program Date: 12-04-2026
+Program Time: 21:19 IST    */
+
+/**
+ *  ███████╗ █████╗ ███╗   ██╗██████╗ ██╗██████╗  █████╗ ███╗   ██╗
+ *  ██╔════╝██╔══██╗████╗  ██║██╔══██╗██║██╔══██╗██╔══██╗████╗  ██║
+ *  ███████╗███████║██╔██╗ ██║██║  ██║██║██████╔╝███████║██╔██╗ ██║
+ *  ╚════██║██╔══██║██║╚██╗██║██║  ██║██║██╔═══╝ ██╔══██║██║╚██╗██║
+ *  ███████║██║  ██║██║ ╚████║██████╔╝██║██║     ██║  ██║██║ ╚████║
+ *  ╚══════╝╚═╝  ╚═╝╚═╝  ╚═══╝╚═════╝ ╚═╝╚═╝     ╚═╝  ╚═╝╚═╝  ╚═══╝
+ *
+ *                 S A N D I P A N   R A Y
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <math.h>
+#include <stdbool.h>
+#include <limits.h>
+
+void merge(int arr[], int si, int mid, int ei) {
+    int size=ei-si+1;
+    int temp[size];
+    int i=si;   int j=mid+1;
+    int k=0;
+    while (i<=mid && j<=ei) {
+        if (arr[i]>arr[j])  temp[k++]=arr[j++];
+        else temp[k++]=arr[i++];
+    }
+    while (i<=mid) {
+        temp[k++]=arr[i++];
+    }
+    while (j<=ei) {
+        temp[k++]=arr[j++];
+    }
+    //putting the elements in array
+    k=0;
+    for (int i=si; i<=ei; i++) {
+        arr[i]=temp[k++];
+    }
+}
+
+void mergeSort(int arr[],int si, int ei) {
+    if (si>=ei) return;
+    int mid=si+(ei-si)/2;
+    mergeSort(arr,si,mid);
+    mergeSort(arr,mid+1,ei);
+    merge(arr,si,mid,ei);
+}
+
+void print(int arr[],int size) {
+    for (int i=0; i<size; i++) {
+        printf("%d ",arr[i]);
+    }
+}
+
+int main() {
+    int arr[]={6,4,9,2,5,9,0};
+    mergeSort(arr,0,6);
+    print(arr,7);
+    return 0;
+}
