@@ -1,0 +1,52 @@
+/*Basic C programs
+Regn no.: 2025CA085
+Program Date: 12-04-2026
+Program Time: 22:59 IST    */
+
+/**
+ *  ███████╗ █████╗ ███╗   ██╗██████╗ ██╗██████╗  █████╗ ███╗   ██╗
+ *  ██╔════╝██╔══██╗████╗  ██║██╔══██╗██║██╔══██╗██╔══██╗████╗  ██║
+ *  ███████╗███████║██╔██╗ ██║██║  ██║██║██████╔╝███████║██╔██╗ ██║
+ *  ╚════██║██╔══██║██║╚██╗██║██║  ██║██║██╔═══╝ ██╔══██║██║╚██╗██║
+ *  ███████║██║  ██║██║ ╚████║██████╔╝██║██║     ██║  ██║██║ ╚████║
+ *  ╚══════╝╚═╝  ╚═╝╚═╝  ╚═══╝╚═════╝ ╚═╝╚═╝     ╚═╝  ╚═╝╚═╝  ╚═══╝
+ *
+ *                 S A N D I P A N   R A Y
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <math.h>
+#include <stdbool.h>
+#include <limits.h>
+
+void swap(int *a, int*b) {
+    int temp=*a;
+    *a=*b;
+    *b=temp;
+}
+
+void insertionSort (int arr[],int size) {
+    int n=size;
+    for (int i=0; i<n-1; i++) {
+        int minIdx=i;
+        for(int j=i+1; j<n; j++) {
+            if (arr[minIdx]>arr[j]) minIdx=j; 
+        }
+        swap(&arr[i],&arr[minIdx]);
+    }
+}
+
+void print(int arr[],int size) {
+    for (int i=0; i<size; i++) {
+        printf("%d ",arr[i]);
+    }
+}
+
+int main() {
+    int arr[]={6,4,9,2,5,9,0};
+    insertionSort(arr,7);
+    print(arr,7);
+    return 0;
+}
